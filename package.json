@@ -1,0 +1,18 @@
+{
+  "name": "daniil_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "migrate:latest": "node src/bin/migration-run.js latest",
+    "migrate:rollback": "node src/bin/migration-run.js rollback"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^0.95.6",
+    "koa": "^2.13.1",
+    "mysql2": "^2.2.5"
+  }
+}

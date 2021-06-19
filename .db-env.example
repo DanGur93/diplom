@@ -1,0 +1,6 @@
+MYSQL_DATABASE=daniilproject
+MYSQL_USER=daniil
+MYSQL_PASSWORD=
+MYSQL_ROOT_PASSWORD=
+# MYSQL_PASSWORD_FILE=/run/secrets/db_password
+# MYSQL_ROOT_PASSWORD_FILE=/run/secrets/db_password
