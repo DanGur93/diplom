@@ -10,7 +10,6 @@ services:
     #   dockerfile: ./Dockerfile
     # secrets:
     #   - db_password
-    env_file: ./.env
     depends_on:
       - db
     ports:
